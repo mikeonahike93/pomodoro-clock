@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+* {
+  font-family: 'Bangers';
+}
+
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d63031;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #eee;
+
+}
+
+h4 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #eee;
+
+}
+
+.interval-container {
+  display: flex;
+  margin: 0 40px;
+  align-items: center;
+  color: #eee;
+}
+
+.interval-length-container {
+  display: flex;
+}
+
+button {
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+  padding: 5px 10px;
+  margin: 0 10px;
+  height: 25px;
+  background-color: #d63031;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #eee;
+  width: 70px;
+  border-radius: 4px;
+}
+
+button:disabled {
+cursor: not-allowed;
+}
+
+.interval-length {
+  font-size: 2rem;
+  margin: 0 10px;
+}
+
+.timer-container {
+  border: 2px solid black;
+margin-top: 40px;
+border-radius: 25px;
+width: 250px;
+text-align: center;
+box-shadow: 0 2px 4px rgba(0,0,0,0.7);
+padding: 10px;
+color: #eee;
+}
+
+.timer {
+  font-size: 2rem;
+
+}
+
+.timer-actions {
+  margin-top: 20px;
+  text-align: center;
+}
